@@ -1,0 +1,35 @@
+{
+  "name": "mean-app",
+  "version": "1.0.0",
+  "description": "MEAN stack application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmorriseau/meanNPMdemo.git"
+  },
+  "keywords": [
+    "mean"
+  ],
+  "author": "jmorriseau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmorriseau/meanNPMdemo/issues"
+  },
+  "homepage": "https://github.com/jmorriseau/meanNPMdemo#readme",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-route": "^1.6.2",
+    "angularjs": "0.0.1",
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.22",
+    "mongoose": "^4.8.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}

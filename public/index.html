@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html ng-app="meanhotel">
+  <head>
+    <title>Tanner's Run</title> <!--MEAN hotel-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <div ng-view></div>
+
+
+
+
+
+
+    <!-- <div ng-controller="MainController as MyCtrl">
+      <p> Hello {{ MyCtrl.name }}! </p>
+    </div>
+
+    <p>Hello {{user}}</p>
+    <input type="text" name="" id="" ng-model="user" />
+
+    <div ng-init="string = 'star wars'">
+      <p>{{ string | uppercase }}</p>
+    </div>
+
+    <div ng-init="names = [{surname:'Smith', firstname: 'Joe'},{surname: 'Smith', firstname: 'Sue'}]">
+      <ul>
+        <li ng-repeat="name in names track by $index">{{name.surname}}, {{name.firstname}}</li>
+      </ul>
+    </div> -->
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted text-center">
+          <a href="google.com" target="_blank"><img src="images/run.png" height="26" alt="Google"/> </a>
+        </p>
+        <p class="text-muted text-center">
+          <small>&copy; 2017 Tanner's Run</small>
+        </p>
+      </div>
+    </footer>
+
+    <script src="jquery/jquery-3.1.1.min.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+    <script src="angular-app/app.js"></script>
+    <script src="angular-app/hotel-list/hotel-list-controller.js"></script>
+    <script src="angular-app/hotel-display/hotel-display-controller.js"></script>
+    <script src="angular-app/hotel-data-factory/hotel-data-factory.js"></script>
+    <script src="angular-app/hotel-rating/hotel-rating-directive.js"></script>
+
+    <!-- <script src="routes.js"></script>
+    <script src="main/main-controller.js"></script>
+    <script src="film/film-controller.js"></script>
+    <script src="datafactory/datafactory.js"></script>
+    <script src="filters/reverse-filter/reverse-filter.js"></script>
+    <script src="filters/date-suffix/date-suffix.js"></script> -->
+  </body>
+</html>
